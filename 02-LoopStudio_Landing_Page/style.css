@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components{
+    .nav-toggle{
+     @apply  absolute  top-7 right-7 p-3 bg-[url('../images/icon-hamburger.svg')] bg-no-repeat bg-center z-30 sm:hidden
+    }
+    .nav-toggle[aria-expanded='true']{
+        @apply bg-[url('../images/icon-close.svg')] 
+    }
+    .primary-navigation{
+        @apply fixed flex flex-col gap-y-7 justify-center px-8 font-Josefin  inset-0 transform translate-x-full bg-black  z-10 sm:static sm:px-0 sm:pt-0 sm:gap-y-0 sm:flex-row  sm:capitalize sm:items-center sm:justify-between sm:bg-transparent  sm:transform-none sm:max-w-xl sm:basis-full
+    }
+    .primary-navigation[data-visible='true']{
+        @apply translate-x-0
+    }
+
+}

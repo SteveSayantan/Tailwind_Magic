@@ -1,0 +1,16 @@
+{
+  "name": "tailwind-tutorials",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./01-Basic_Landing_Page/style.css -o ./01-Basic_Landing_Page/styles/output.css --watch",
+    "prod":  "tailwindcss -i ./01-Basic_Landing_Page/style.css -o ./01-Basic_Landing_Page/prod/output.css --minify" 
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.0.24"
+  }
+}

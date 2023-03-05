@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .nav-link{
+        @apply uppercase font-medium 
+    }
+    .side-heading{
+       @apply text-3xl font-bold mb-6
+    }
+    .side-text{
+        @apply text-xl font-normal mb-5
+    }
+}
