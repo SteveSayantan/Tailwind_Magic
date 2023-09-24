@@ -1,7 +1,7 @@
 const defaultTheme= require('tailwindcss/defaultTheme');
 
 module.exports = {
-  content: ["./02-LoopStudio_Landing_Page/Public/**/*.{html,js}"],
+  content: ["./public/**/*.{html,js}"],
   theme: {
     screens:{
       'xs':'500px',

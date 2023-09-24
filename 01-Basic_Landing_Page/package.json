@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "tailwindcss -i ./01-Basic_Landing_Page/style.css -o ./01-Basic_Landing_Page/styles/output.css --watch",
-    "prod":  "tailwindcss -i ./01-Basic_Landing_Page/style.css -o ./01-Basic_Landing_Page/prod/output.css --minify" 
+    "build": "tailwindcss -i ./style.css -o ./styles/output.css --watch",
+    "prod":  "tailwindcss -i ./style.css -o ./prod/output_minified.css --minify" 
   },
   "keywords": [],
   "author": "",

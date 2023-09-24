@@ -1,5 +1,5 @@
 module.exports = {
-  content: ["./01-Basic_Landing_Page/WebPages/**/*.{html,js}"],
+  content: ["./public/**/*.{html,js}"],
   theme: {
     extend: {
       fontFamily:{
